@@ -1,0 +1,46 @@
+name = "whimbrel-signals-mcp"
+main = "src/index.js"
+compatibility_date = "2026-08-01"
+
+[observability]
+enabled = true
+
+# Scheduled handler at 13:00 UTC.
+[triggers]
+crons = ["0 13 * * *"]
+
+[vars]
+# Public Stripe price ids. API keys and webhook secrets are Worker secrets.
+STRIPE_PRICE_SOLO = "price_1UGlLdDzCsCUEYp12B8ALasc"
+STRIPE_PRICE_PRACTICE = "price_1UGlLeDzCsCUEYp16v6v4Sdw"
+STRIPE_PRICE_FIRM = "price_1UGlLeDzCsCUEYp1dhUkmGMy"
+STRIPE_PRICE_RUN_PACK = "price_1UGlLfDzCsCUEYp1rGNyDmVr"
+# Legacy price id still read by existing tenants.
+STRIPE_PRICE_ID = "price_1U9dBFDzCsCUEYp1axMuCiJi"
+STRIPE_TIER = "standard"
+
+MAX_DAILY_RESEARCH_RUNS = "25"
+
+# Unauthenticated MCP POSTs answer 401 so clients start OAuth, including free access.
+MCP_REQUIRE_AUTH = "1"
+
+# Public x402 quote parameters.
+X402_NETWORK = "base"
+X402_ASSET = "0x833589fCD6eDb6E08f4c7C32D4f71b54bdA02913"
+X402_FACILITATOR = "https://api.cdp.coinbase.com/platform/v2/x402"
+X402_PRICE_FEED_USDC = "0.01"
+X402_PRICE_COMPANY_USDC = "0.05"
+X402_PRICE_ARCHIVE_USDC = "1.00"
+
+[[kv_namespaces]]
+binding = "USAGE"
+id = "0cc0ae94d1574859be2279041a1c8501"
+
+[[kv_namespaces]]
+binding = "CORPUS"
+id = "0464134b9cde4ecb8be95eea39ba0ce3"
+
+[[d1_databases]]
+binding = "DB"
+database_name = "whimbrel-corpus"
+database_id = "1ff0dbf5-1cf6-4cd6-9055-fb1714adbcd3"

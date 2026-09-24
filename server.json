@@ -1,0 +1,13 @@
+{
+  "$schema": "https://static.modelcontextprotocol.io/schemas/2025-12-11/server.schema.json",
+  "name": "com.whimbrelresearch/whimbrel-research",
+  "title": "Whimbrel Research",
+  "description": "US medtech signals over MCP (FDA, NIH/NSF). Free archive; subscriptions unlock full company briefs.",
+  "version": "1.0.0",
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://data.whimbrelresearch.com"
+    }
+  ]
+}
