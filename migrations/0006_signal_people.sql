@@ -1,0 +1,11 @@
+-- Registry-published people on each signal, as a JSON list of {name, role}:
+-- the PI RePORTER names on the award, the officers a Form D names, the
+-- officials a trial registration names. Served free per the August 28, 2026
+-- decision: the registries publish these names themselves, so withholding
+-- them was never a defensible boundary. Researched leadership (who runs the
+-- company NOW, contact routes) lives in research_records, the paid layer.
+--
+-- Apply with: npx wrangler d1 execute whimbrel-corpus --remote \
+--   --file=migrations/0006_signal_people.sql
+-- (ALTER TABLE ADD COLUMN is not idempotent; apply once.)
+ALTER TABLE signal_archive ADD COLUMN people TEXT;
