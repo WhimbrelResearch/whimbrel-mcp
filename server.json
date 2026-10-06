@@ -3,7 +3,7 @@
   "name": "com.whimbrelresearch/whimbrel-research",
   "title": "Whimbrel MedTech Analyst",
   "description": "Your MedTech BD analyst on demand: US medtech grants, contracts, FDA clearances, linked to source.",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "websiteUrl": "https://whimbrelresearch.com/connect/",
   "repository": {
     "url": "https://github.com/WhimbrelResearch/whimbrel-mcp",
