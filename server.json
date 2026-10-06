@@ -2,8 +2,8 @@
   "$schema": "https://static.modelcontextprotocol.io/schemas/2025-12-11/server.schema.json",
   "name": "com.whimbrelresearch/whimbrel-research",
   "title": "Whimbrel MedTech Analyst",
-  "description": "US medtech signals over MCP (FDA, NIH/NSF). Free archive; subscriptions unlock full company briefs.",
-  "version": "1.0.0",
+  "description": "Your MedTech BD analyst on demand: US medtech grants, contracts, FDA clearances, linked to source.",
+  "version": "1.0.1",
   "remotes": [
     {
       "type": "streamable-http",
