@@ -1,9 +1,9 @@
-# Whimbrel MCP
+# Whimbrel MedTech Analyst
 
-Remote MCP for US medtech signals at [https://data.whimbrelresearch.com](https://data.whimbrelresearch.com). The free archive is open to any client. Solo, Practice, and Firm unlock full company briefs for 2, 8, and 25 companies.
+Whimbrel MedTech Analyst is your MedTech BD analyst on demand. It is a remote MCP server for US medtech at [https://data.whimbrelresearch.com](https://data.whimbrelresearch.com). Pick a company and get research where every line is linked to its source.
 
 Install from [https://whimbrelresearch.com/connect/](https://whimbrelresearch.com/connect/).
 
-Sign-in uses OAuth. The free access path is on that same connect flow and opens the signal archive. A Solo, Practice, or Firm subscription unlocks company briefs through the same flow.
+Sign-in uses OAuth. Free access is on that same connect flow and opens the public archive of US medtech filings. An Individual or Seat subscription adds full research on a target company through the same flow.
 
 This repository is the Cloudflare Worker source for the MCP connector.
