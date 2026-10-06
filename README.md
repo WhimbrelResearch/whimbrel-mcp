@@ -1,9 +1,9 @@
 # Whimbrel MedTech Analyst
 
-Whimbrel MedTech Analyst is your MedTech BD analyst on demand. It is a remote MCP server for US medtech at [https://data.whimbrelresearch.com](https://data.whimbrelresearch.com). Pick a company and get research where every line is linked to its source.
+Whimbrel MedTech Analyst is your MedTech BD analyst on demand. It is a remote MCP server for US medtech at [https://data.whimbrelresearch.com](https://data.whimbrelresearch.com).
 
 Install from [https://whimbrelresearch.com/connect/](https://whimbrelresearch.com/connect/).
 
-Sign-in uses OAuth. Free access is on that same connect flow and opens the public archive of US medtech filings. An Individual or Seat subscription adds full research on a target company through the same flow.
+Sign-in uses OAuth. After Subscribe (one-month trial or paid), your MedTech BD analyst works every day: scan a space, build a target list, map a landscape, find who to call, track what changed, pull one fact, and on request full company research (counts toward usage). Every line is linked to its source.
 
-This repository is the Cloudflare Worker source for the MCP connector.
+This repository is the public copy of the Cloudflare Worker connector (registry manifest and customer-facing README). The deploy source of truth is the private WhimbrelResearch/whimbrel-research repo.
