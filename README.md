@@ -1,9 +1,11 @@
-# Whimbrel MedTech Analyst
+# Whimbrel: Medtech Research
 
-Whimbrel MedTech Analyst is your MedTech BD analyst on demand. It is a remote MCP server for US medtech at [https://data.whimbrelresearch.com](https://data.whimbrelresearch.com). Pick a company and get research where every line is linked to its source.
+Find and rank device companies.
 
-Install from [https://whimbrelresearch.com/connect/](https://whimbrelresearch.com/connect/).
+Your job is to win new business, not to spend hours researching medical device companies. Whimbrel saves you hours of research inside the AI app you already use.
 
-Sign-in uses OAuth. Whimbrel starts with a free month, then costs $99 a month, or $79 a month billed yearly. See [https://whimbrelresearch.com/](https://whimbrelresearch.com/).
+Whimbrel is for sales and business development teams at firms that sell to medical device companies: contract manufacturing, sterilization, testing, design, regulatory and software services. Every fact links to its public source.
 
-This repository is the Cloudflare Worker source for the MCP connector.
+Your first month is free. Then it's $99 a month, or $79 a month billed yearly. Get started at [whimbrelresearch.com](https://whimbrelresearch.com/).
+
+This repository is the Cloudflare Worker source for the Whimbrel MCP server. Sign-in uses OAuth.

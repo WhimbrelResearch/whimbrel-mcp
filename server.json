@@ -1,14 +1,30 @@
 {
   "$schema": "https://static.modelcontextprotocol.io/schemas/2025-12-11/server.schema.json",
   "name": "com.whimbrelresearch/whimbrel-research",
-  "title": "Whimbrel MedTech Analyst",
-  "description": "Your MedTech BD analyst on demand: US medtech grants, contracts, FDA clearances, linked to source.",
-  "version": "1.0.2",
-  "websiteUrl": "https://whimbrelresearch.com/connect/",
+  "description": "Save hours of research on US medical device companies, ranked for your firm, with sources.",
+  "title": "Whimbrel: Medtech Research",
   "repository": {
     "url": "https://github.com/WhimbrelResearch/whimbrel-mcp",
     "source": "github"
   },
+  "version": "1.0.8",
+  "websiteUrl": "https://whimbrelresearch.com/",
+  "icons": [
+    {
+      "src": "https://whimbrelresearch.com/brand/whimbrel-mark-512.png",
+      "mimeType": "image/png",
+      "sizes": [
+        "512x512"
+      ]
+    },
+    {
+      "src": "https://whimbrelresearch.com/brand/whimbrel-mark.svg",
+      "mimeType": "image/svg+xml",
+      "sizes": [
+        "any"
+      ]
+    }
+  ],
   "remotes": [
     {
       "type": "streamable-http",
