@@ -4,6 +4,6 @@ Whimbrel MedTech Analyst is your MedTech BD analyst on demand. It is a remote MC
 
 Install from [https://whimbrelresearch.com/connect/](https://whimbrelresearch.com/connect/).
 
-Sign-in uses OAuth. Free access is on that same connect flow and opens the public archive of US medtech filings. An Individual or Seat subscription adds full research on a target company through the same flow.
+Sign-in uses OAuth. Whimbrel starts with a free month, then costs $99 a month, or $79 a month billed yearly. See [https://whimbrelresearch.com/](https://whimbrelresearch.com/).
 
 This repository is the Cloudflare Worker source for the MCP connector.
