@@ -1,5 +1,7 @@
 # Whimbrel: Medtech Research
 
+[![Whimbrel: Medtech Research](https://glama.ai/mcp/connectors/com.whimbrelresearch/whimbrel-research/badges/score.svg)](https://glama.ai/mcp/connectors/com.whimbrelresearch/whimbrel-research)
+
 Find and rank device companies.
 
 Your job is to win new business, not to spend hours researching medical device companies. Whimbrel saves you hours of research inside the AI app you already use.
