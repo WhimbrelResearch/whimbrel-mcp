@@ -1,13 +1,9 @@
 {
   "$schema": "https://static.modelcontextprotocol.io/schemas/2025-12-11/server.schema.json",
   "name": "com.whimbrelresearch/whimbrel-research",
-  "description": "Save hours of research on US medical device companies, ranked for your firm, with sources.",
   "title": "Whimbrel: Medtech Research",
-  "repository": {
-    "url": "https://github.com/WhimbrelResearch/whimbrel-mcp",
-    "source": "github"
-  },
-  "version": "1.0.8",
+  "description": "Find US medical device clients and Contacts at each company, in ChatGPT, Claude or the web app.",
+  "version": "1.0.10",
   "websiteUrl": "https://whimbrelresearch.com/",
   "icons": [
     {
@@ -25,6 +21,10 @@
       ]
     }
   ],
+  "repository": {
+    "url": "https://github.com/WhimbrelResearch/whimbrel-mcp",
+    "source": "github"
+  },
   "remotes": [
     {
       "type": "streamable-http",
