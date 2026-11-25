@@ -1,9 +1,9 @@
 {
   "$schema": "https://static.modelcontextprotocol.io/schemas/2025-12-11/server.schema.json",
   "name": "com.whimbrelresearch/whimbrel-research",
-  "title": "Whimbrel: Medtech Research",
+  "title": "Whimbrel MedTech Analyst",
   "description": "Find US medical device clients and Contacts at each company, in ChatGPT, Claude or the web app.",
-  "version": "1.0.10",
+  "version": "1.0.11",
   "websiteUrl": "https://whimbrelresearch.com/",
   "icons": [
     {
